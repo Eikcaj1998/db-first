@@ -1,0 +1,31 @@
+Modellizzare la struttura di una tabella per memorizzare tutti i dati 
+riguardanti delle auto usate messe in vendita da un concessionario.
+
+
+car_id - integer - SMALLINT - PRIMARY_KEY - AUTO_INCREMENT
+production - date - YEAR - NOTNULL
+buy_date - date - DATETIME - NOTNULL
+car_company - string - VARCHAR(20) - NOTNULL
+car_model - string - VARCHAR(100) - NOTNULL
+price - float - FLOAT(8,2) - NOTNULL
+sale - integer - TINYINT - NULL
+usage - string - VARCHAR(2) - NOTNULL
+km - integer- MEDIUMINT - NOTNULL
+car_status - string - TEXT - NOTNULL
+engine_status - string - TEXT - NOTNULL
+car_interior - string - VARCHAR(255) - NULL
+fuel_type - string - VARCHAR(10) - NOTNULL
+hybrid - boolean - TINYINT - DEFAULT(FALSE)
+second_fuel_type - string - VARCHAR(10) - NULL
+weight - string - SMALLINT - NOTNULL
+height - integer - SMALLINT - NOTNULL
+length - integer - MEDIUMMINT - NOTNULL
+width - integer - SMALLMINT - NOTNULL
+paint_color - string - VARCHAR(20) - NULL
+air_conditioning - boolean - TINYINT - DEFAULT(FALSE) 
+airbag - boolean - TINYINT - NULL
+radio - boolean - TINYINT - DEFAULT(FALSE)
+heated_seats - boolean - TINYINT - DEFAULT(FALSE)
+gps - boolean - TINYINT - DEFAULT(FALSE)
+transmission - string - VARCHAR(10) - NOTNULL
+storage - integer - TINYINT - DEFAULT(0) - NOTNULL
